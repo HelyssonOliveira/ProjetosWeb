@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Exercícios 02 JavaScript (Parte 3) - Curso JavaScript - curso em vídeo</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <section>
+        <div>
+            <P>Ano de nascimento: 
+                <input id="txtano" name="txtano" type="number" min="0">
+            </P>
+            <p><strong>Sexo:</strong>
+                <input type="radio" id="mas" name="radsex">
+                <label for="mas">Masculino</label>
+                <input type="radio" id="fem" name="radsex"> 
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <button onclick="verificar()">VERIFICAR</button>
+            </p>
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver os resultados aqui
+        </div>
+    </section>
+    <footer>
+        &copy; CursoemVídeo
+    </footer>
+</body>
+</html>

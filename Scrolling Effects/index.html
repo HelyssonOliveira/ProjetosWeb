@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Scrolling Effects</title>
+
+    <link rel="stylesheet" href="./scripts/jarallax.js">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <section>
+        <div class="box">
+            <h2 data-jarallax-element="0 -200">Aesome Parallax Scrolling</h2>
+            <div class="container">
+                <div class="imgBx jarallax">
+                    <img src="./img/bg1.jpg" class="jarallax-img">
+                </div>
+                <div class="content" data-jarallax-element="-200 0">
+                    <p>Lorem ipsum, dolor sit amet consectetur
+                        adipisicing elit. Tempora, nobis accusamus
+                        reprehenderit libero id doloremque?
+                        Quisquam quasi minus alias mollitia </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="box">
+            <h2 data-jarallax-element="0 200">Olha eu surgindo</h2>
+            <div class="container">
+                <div class="imgBx jarallax">
+                    <img src="./img/bg2.jpg" class="jarallax-img">
+                </div>
+                <div class="content" data-jarallax-element="-200 0">
+                    <p>Lorem ipsum, dolor sit amet consectetur
+                        adipisicing elit. Tempora, nobis accusamus
+                        reprehenderit libero id doloremque?
+                        Quisquam quasi minus alias mollitia </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="box">
+            <h2 data-jarallax-element="0 -200">Muito legal esse efeito né?</h2>
+            <div class="container">
+                <div class="imgBx jarallax">
+                    <img src="./img/bg3.jpg" class="jarallax-img">
+                </div>
+                <div class="content" data-jarallax-element="-200 0">
+                    <p>Lorem ipsum, dolor sit amet consectetur
+                        adipisicing elit. Tempora, nobis accusamus
+                        reprehenderit libero id doloremque?
+                        Quisquam quasi minus alias mollitia </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./scripts/jarallax.js"></script>
+    <script src="./scripts/jarallax-element.js"></script>
+    <script>
+        jarallax(document.querySelectorAll('.jarallax'), {
+            speed: 0.5,
+        });
+    </script>
+</body>
+
+</html>
